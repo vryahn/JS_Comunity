@@ -22,3 +22,12 @@ output:
 
 */
 
+let cantidad
+
+cantidad = prompt('Ingrese cantidad de Koders: ')
+
+let koders = [cantidad];
+
+for(let i=0;i<cantidad;i++) koders[i] = prompt('Ingresa nombre: ')
+
+for(let i=0;i<cantidad;i++) document.write('Koder ',i+1,': ',koders[i],'<br>')
