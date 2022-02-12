@@ -15,3 +15,18 @@ let arrayNames = [
 
 */
 
+tamaño = prompt('Indique cantidad de elementos del arreglo: ')
+
+let vector = [tamaño]
+let min = 0
+let random
+
+function aleatoriedad () {
+  random = parseInt(Math.random() * (tamaño - 0) + 0)
+}
+
+for(let i=0;i<tamaño;i++) vector[i] = prompt('Ingresa nombre: ')
+
+aleatoriedad();
+document.write('Numero aleatorio: ',random,'<br>Es el índice de: ',vector[random])
+
