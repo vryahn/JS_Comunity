@@ -28,3 +28,4 @@ function imprimirordenada () {
   for(let i=0;i<cantidad;i++) document.write('Koder ',i+1,': ',koders[i],'<br>')
 }
 
+// NO ME SALE, AIUDAAAAAAAA
