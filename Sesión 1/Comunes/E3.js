@@ -24,3 +24,15 @@ Output:
 
 */
 
+let arrayKoders = [
+    "Fanny Alvarez",
+    "Elias Herrera",
+    "Kraken Perez Salinas",
+    "Clau Rodriguez"
+]
+
+let vector = []
+vector = arrayKoders.split();
+for (let i=0;i<vector.length;i++) document.write(vector[i]+'<br>')
+
+/* NO FUNCIONA AIUDAAAA */
